@@ -8,18 +8,18 @@ export default component$(() => {
       <p>
         Мы в руководстве по эксплуатации FreeCad
         <br />
-        <a href="/tutorial">Начнем</a>
+        <p><a href="/tutorial">Начнем</a></p>
       </p>
     </>
   );
 });
 
 export const head: DocumentHead = {
-  title: "Welcome to Qwik",
+  title: "Welcome to Manual",
   meta: [
     {
       name: "description",
-      content: "Qwik site description",
+      content: "Manual site description",
     },
   ],
 };
